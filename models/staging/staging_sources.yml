@@ -2,13 +2,13 @@ version: 2
 sources:
 
 - name: weather_data
-  schema: r_raminhajavifard
+  schema: s_raminhajavifard
   tables:
     - name: weather_daily_raw
     - name: weather_hourly_raw
 
 - name: flights_data
-  schema: r_raminhajavifard
+  schema: public
   tables:
     - name: flights
     - name: airports
